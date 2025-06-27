@@ -1,0 +1,30 @@
+{
+  "data": {
+    "directory": ".opencode"
+  },
+  "providers": {
+    "openrouter": {
+      "apiKey": "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",
+      "disabled": false
+    }
+  },
+  "agents": {
+    "coder": {
+      "model": "openrouter.claude-sonnet-4",
+      "maxTokens": 50000
+    },
+    "summarizer": {
+      "model": "openrouter.claude-sonnet-4",
+      "maxTokens": 5000
+    },
+    "task": {
+      "model": "openrouter.claude-sonnet-4",
+      "maxTokens": 5000
+    },
+    "title": {
+      "model": "openrouter.claude-3.5-haiku",
+      "maxTokens": 80
+    }
+  },
+  "autoCompact": true
+}
